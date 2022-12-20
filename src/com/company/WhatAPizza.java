@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class WhatAPizza {
     public static void main(String[] args) {
         float totalbill;
@@ -50,7 +52,13 @@ public class WhatAPizza {
         System.out.println("Discount Offered : "+10+"%");
         System.out.println("Amount to be paid: $"+paidAmount);
         System.out.println("------------Thank you---------------------------");
-
+        int ni =1111;
+        if(ni >=100){
+            System.out.println("number is three digits");
+        }
+        else if (ni>=10){
+            System.out.println("number is two digits");
+        }
 
 
     }
